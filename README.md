@@ -1,7 +1,7 @@
 # linuxSetup
 ## Install zsh
 ```
-sudo apt-get zsh fortune cowsay
+sudo apt-get install zsh fortune cowsay
 sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
 chsh -s $(which zsh)
 ```
